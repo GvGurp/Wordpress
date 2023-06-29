@@ -1,0 +1,224 @@
+body{
+    font-size: 40px;
+    background-color:black;
+    border: 7px black solid;
+    margin: 0;
+    padding: 20px black;
+}
+
+body h1 {
+    margin: 5px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    background-color: rgb(88, 10, 10);
+   
+}
+
+body h1 a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px black;
+}
+hr {
+    display: none;
+}
+body p {
+    padding: 10px;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.Thema2{
+    margin: 0%;
+    color: rgb(203, 198, 198);
+    font-size: 40px;
+    background-color:black;
+
+}
+
+.Thema2 .titel {
+    color: white;
+}
+
+img {
+    box-shadow: 2px 2px red;
+}
+
+
+
+.headerSize {
+    display: block;
+    background-image: url(Valorant.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px black solid;
+    height: 580px;
+    width: 100%;
+
+}
+
+
+.headerSize h1{
+    margin: 0;
+    font-size: 120px;
+    color: white;
+    text-shadow: 4px 4px red;
+}
+
+.headerSize p {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px red;
+}
+
+
+.sub-menu {
+    height: fit-content;
+    display: none;
+    
+}
+
+.menu-item-55:hover .sub-menu {
+    display: block;
+    justify-content:end;
+    position: absolute;
+    width: fit-content;
+   
+}
+
+tr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.is-style-stripes{
+    width: fit-content;
+    max-width: 90%;
+    height: fit-content;
+    margin: 30px;
+}
+
+
+.menu-navigatie-balk-container {
+    z-index: 10;
+    top: 0;
+    position: sticky;
+    box-shadow: 2px 2px red;
+}
+
+ ul {
+    justify-content: space-evenly;
+    align-items:center; 
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    margin: 0;
+}
+ul a:hover {
+    background-color: rgb(103, 11, 11);
+}
+
+li{
+    list-style: none;
+}
+
+.Thema2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.Thema2 .title{
+    color: white;
+}
+.titel {
+    font-size: 120px;
+    color: black;
+    text-shadow: 3px 3px red;
+}
+
+figure.wp-block-gallery, figure.wp-block-image{
+    min-width: 270px;
+    min-height: 250px;
+    margin: 15px;
+}
+
+
+.wp-element-caption{
+    font-size: 50px;
+}
+form {
+    margin-left: 100px;
+    max-width: 80%;
+}
+
+.links {
+    color: whitesmoke;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 27px;
+}
+
+.wp-block-group{
+    max-height: min-content;
+}
+
+.rechts {
+   color: whitesmoke;
+    display: flex;
+    padding: 30px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    font-size: 27px;
+}
+
+
+.wp-block-columns{
+    font-size: 20px;
+    text-shadow: 1px 1px red;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px red solid;
+    padding: 0em;
+    margin: 0;
+    background-image: url(wapen2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 100%;
+   
+}
+
+footer p {
+    color: white;
+    text-shadow: 1px 1px red;
+    font-weight: bolder;
+    font-size :25px; 
+}
+
+
+#container{
+    display: block;
+    background-color: inherit;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    
+}
+
+#container:hover ul {
+    color: red;
+}
+
